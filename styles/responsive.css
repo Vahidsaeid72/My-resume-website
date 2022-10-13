@@ -14,10 +14,7 @@
   .container {
     max-width: 720px;
   }
-  .services .service-item {
-    flex: 0 0 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
+
   .postfolio .portfolio-gallery .item {
     flex: 0 0 calc(50% - 20px);
     max-width: calc(50% - 20px);
@@ -76,6 +73,7 @@
     margin: auto;
     margin-left: 35px;
   }
+
   .about .about-content .about-description h2 {
     font-size: 3.4rem;
   }
@@ -97,9 +95,13 @@
   .home .home-content h1 {
     font-size: 7rem;
   }
-  .lightbox img {
-    width: 70%;
-    height: 70%;
+
+  .postfolio .portfolio-gallery .item h1 {
+    font-size: 18px;
+  }
+  .postfolio .portfolio-gallery .item h2 a {
+    color: #d84315;
+    font-size: 15px;
   }
 }
 @media (min-width: 1200px) {
